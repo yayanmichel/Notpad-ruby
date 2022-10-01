@@ -1,0 +1,85 @@
+.justify-content-center {
+    margin-top: 40px;
+    justify-content: center !important;
+}
+    /* .h1{
+        font-size: 80px;
+    } */
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+    strong {
+        font-size: 40px;
+        color: blue;
+    }
+
+.primary-header {
+    padding: 12px 50px;
+    text-align: center;
+     margin-left: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.dark-header {
+    padding: 12px 50px;
+    text-align: center;
+     margin-left: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background: #ff00e5;
+    color: #fff;
+
+    
+    
+}
+
+
+
+.img-fluid {
+   max-width: 600px;
+   height: auto;
+   box-sizing: border-box;
+   display: inline;
+   line-height: 24px;
+   position: static;
+   z-index: auto;
+   margin-left: auto;
+   margin-top: 80px;
+}
+
+.img{
+    vertical-align: middle;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.pins {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.new-pins {
+    padding: 8px 40px;
+    margin-bottom: 10px;
+    background: #ff00e5;
+}
+
+
+

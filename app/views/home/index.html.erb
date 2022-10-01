@@ -1,0 +1,28 @@
+<section id="hero" class="hero d-flex align-items-center mt-5">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up" data-aos-delay="400">Welcome to PINS</h1>
+          <h2 data-aos="fade-up"> the place where you cripple the journey of <strong>your life!</strong></h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center mt-4">
+                     <% if user_signed_in? %>             
+                        <%= link_to 'Get Started', pins_path, class:'btn btn-primary dark-header' %>
+                    <% else %>
+                    <div class="ml-6">
+                      <%= link_to 'Log In', new_user_session_path, class:'btn btn-primary primary-header' %>
+                    </div>
+                    <% end %>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="/dask.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>

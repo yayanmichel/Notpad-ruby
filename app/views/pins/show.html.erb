@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @pin %>
+
+<div>
+<br>
+  <%= link_to "Edit this pin", edit_pin_path(@pin), class:"btn btn-primary" %> |
+  <%= link_to "Back to pins", pins_path, class:"btn btn-dark"%>
+  
+</div>

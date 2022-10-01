@@ -1,0 +1,14 @@
+<div id="<%= dom_id pin %>">  
+  <div class="card border-primary">
+  <div class="card-header text-bg-primary mt-3">
+    PINS
+  </div>
+  <div class="card-body ">
+    <h2 class="card-title "> Title : <%= pin.title %></h2>
+    <p class="card-text "><%= pin.body %></p>
+    <br/>
+    <hr>
+     <%= button_to "Destroy this pin", @pin, method: :delete, class:"btn btn-danger" %>
+  </div>
+</div>
+</div>

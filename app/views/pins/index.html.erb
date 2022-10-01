@@ -1,0 +1,24 @@
+<p style="color: green"><%= notice %></p>
+<br/>
+
+<div class="pins">PINS list
+</div>
+
+<div class="mb-3">
+    <%= link_to "New pin", new_pin_path, class:"btn btn-secondary new-pins" %>
+</div>
+
+<div id="pins">
+  <% @pins.each do |pin| %>
+
+
+<% if pin.user == current_user %>
+    <%= render pin %>
+    <p>
+    <br>
+      <%= link_to "Show this pin", pin, class:"btn btn-success" %>
+    </p>
+  <% end %>
+</div>
+
+<% end %>
